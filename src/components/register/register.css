@@ -1,0 +1,26 @@
+
+
+.register-form {
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    padding: 1.5rem 3rem;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    backdrop-filter: blur(10px);
+}
+@media (max-width: 750px) {
+
+    .register-form{
+        border: none;
+    }
+    p {
+        font-size: .75rem;
+    }
+} 
